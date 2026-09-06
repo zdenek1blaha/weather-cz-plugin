@@ -1,0 +1,16 @@
+interface:
+  display_name: weather forecast cz
+  short_description: Získává a porovnává aktuální počasí a předpovědi pro ČR, včetně
+    hodinových/dlouhodobých předpovědí a horských túr. Použij při dotazech na počasí,
+    déšť, vítr, bouřky, sníh, výstrahy, výlet nebo túru v ČR. Porovnává explicitně
+    nezávislé modely přes Open-Meteo, autoritativní data ČHMÚ a v horách Horskou službu.
+    Nikdy nesmí meteorologická data domýšlet.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
