@@ -1,0 +1,8 @@
+{
+  "name": "weather-cz",
+  "description": "Weather CZ plugin providing the weather-forecast-cz skill.",
+  "version": "1.0.0",
+  "skills": [
+    "./skills/weather-forecast-cz"
+  ]
+}
